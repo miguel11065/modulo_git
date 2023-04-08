@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Confirmação</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Captcha</h1><br>
+        <h4>Para continuar digite dois números nos Campos A e B, sendo o número do Campo B maior que o do Campo A</h4>
+        <form id="captcha">
+            <input type="number" id="campoA" required placeholder="Campo A" />
+            <input type="number" id="campoB" required placeholder="Campo B" />
+            <p class="error-message">
+                o número do (Campo B) não é maior que o número do (Campo A)
+            </p>
+            <button type="submit" id="continuar">Continuar</button>
+            <p class="concluido">
+                captcha concluido, você pode continuar
+            </p>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
