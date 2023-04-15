@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    background-color: #50a3eb;
+    padding-top: 100px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 980px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+.container button:hover{
+    cursor: pointer;
+}
+
+.container ul{
+    margin-top: 16px;
+    margin-left: 32px;
+    font-size: 30px;
+}
+
+form {
+    max-width: 100%;
+    width: 100%;
+}
+
+form input {
+    background-color: #d2bfec;
+    font-size: 30px;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+form button {
+    background-color: #8654cd;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 30px;
+    margin: 8px;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
+
+li:hover{
+    cursor: pointer;
+}
